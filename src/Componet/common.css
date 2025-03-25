@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Header.css */
+
+* {
+  font-family: 'Open Sans', sans-serif !important;
+}
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+/* ///////////////// home page */
+/* Homepage.css */
+.homepage {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.reservation_list {
+  background-color: #9747ff !important;
+}
+.explore_now_btn {
+  background-color: #f79421 !important;
+}
+.book_now_btn {
+  background-color: #ee2d31 !important;
+}
+.no_table {
+  display: none;
+}
+.you_can_book {
+  font-size: 16px;
+  display: flex;
+  font-weight: 500;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  gap: 10px;
+}
+.you_can_book span {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+@media (max-width: 768px) {
+  .header_main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .all_container_main_class {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
